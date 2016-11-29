@@ -1,0 +1,78 @@
+/* CSS Document */
+html {overflow-x: hidden; overflow-y: auto;}
+body{ font-family:"Microsoft Yahei"; font-size: 12px; margin: 0; padding:0; background-color: #fff; color:#000003;}
+ul,li{padding:0;margin:0;list-style:none;}
+div,form,img,ul,ol,li,dl,dt,dd,p,span{margin:0;padding:0;border:0;}
+form,input{margin:0;padding:0;}
+li{list-style-type:none;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+a{text-decoration:none; color:#000003;}
+a:hover{color:#fa5805;}
+a img{border:none;}
+.fl { float: left;}
+.fr { float: right;}
+.clear { clear: both;}
+.layout { margin: 0 auto; width: 100%; height: auto; overflow: hidden;}
+/*-----------------header----------*/
+.header { margin: 0 auto; height: 110px; padding: 0 2%;}
+.header .logo { width: 50%; height: 110px; background: url(../images/logo.png) no-repeat left center;}
+.header .logo a { display: block; width: 376px; height: 110px;}
+.header .nav { width: 50%;}
+.header .nav ul { margin: 36px 0 0 0; padding: 0; list-style-type: none;}
+.header .nav ul li { float: right; margin: 0 0 0 6%;}
+.header .nav ul li a { font-size: 20px; border-bottom: 2px solid #cbcbcb; line-height: 30px; padding: 0 0 5px 0;}
+.header .nav ul li a:hover,.layout .header .nav ul li a.active  { color: #fa5805; border-bottom:2px solid #fa5805;}
+/*-----------------banner----------*/
+.banner { margin: 0 auto; width: 100%; height: 500px;}
+.banner img { width: 100%; height: 100%; margin: 0 auto;}
+/*-----------------container----------*/
+.container, .merchants { margin: 0 auto; height: auto; overflow: hidden; padding: 3% 8%;}
+.container .container-left,.container .container-right { width: 45%; height: auto; overflow: hidden;}
+.container .container-left h2 { font-size: 30px; color: #fa5805; border-bottom: 1px solid #ccc; padding: 0 0 2% 0; margin: 0 0 2% 0;}
+.container .container-left .text { font-size: 16px; color: #545454; line-height: 30px; text-indent: 2em;}
+.container .container-left .download-app { width: 100%; padding: 2% 0 1% 0;}
+.container .container-left .download-app .download-app-left { width: 40%; height: 192px; margin: 0 0 2% 0;}
+.container .container-left .download-app .download-app-right { width: 60%; height: 192px; margin: 0 0 2% 0;}
+.container .container-left .download-app .ewm { display: block; width: 192px; height: 192px;}
+.container .container-left .download-app .download-btn { display: block; width: 168px; height: 62px; border-radius: 5px; color: #fff; line-height: 62px; font-size: 30px; padding: 0 0 0 70px;}
+.container .container-left .download-app .android{ background:#0085ce url(../images/phone-icon.png) no-repeat 20px 10px; margin: 20px 12% 14px 50px;}
+.container .container-left .download-app .iphone{ background:#ff6633 url(../images/phone-icon.png) no-repeat 20px -82px; margin: 14px 12% 20px 50px;}
+.container .container-left .download-app .download-desc { display: block; font-size: 16px; line-height: 30px; color: #fa5805;}
+.container .container-right h2 { font-size: 30px; color: #1772a1; border-bottom: 1px solid #ccc; padding: 0 0 2% 0;  }
+.container .container-right ul { margin: 5px 0 0 0; padding: 0; list-style-type: none;}
+.container .container-right ul li { width: 100%; line-height: 40px; font-size: 16px; color: #545454;}
+.container .container-right ul li a { color: #545454;}
+.container .container-right ul li span { float: right;}
+.container .container-right ul li a:hover {color: #fa5805;}
+
+.merchants .article-title { font-size: 30px; color: #fa5805; border-bottom: 1px solid #ccc; padding: 0 0 2% 0; margin: 2% 0 20px 0;}
+.merchants p { font-size: 16px; line-height: 30px; color: #545454;}
+.merchants .send-resume-remind { color: #fa5805; font-size: 16px; margin: 2% 0 0 0;}
+/*-----------------footer----------*/
+.wrapper { margin: 2% auto 0 auto; width: 100%; height: auto; overflow: hidden; background-color: #ec681f;}
+.wrapper .footer { margin: 0 auto; height: 132px; padding: 1% 5%;}
+.wrapper .footer ul { margin: 0; padding: 0; list-style-type: none;}
+.wrapper .footer ul li { height: 130px;}
+.wrapper .footer ul li.winxin-desc { margin: 0 0 0 25px; width: 35%;}
+.wrapper .footer ul li.winxin-desc .tltle { font-size: 20px; color: #fff; margin: 15px 0 15px 0;}
+.wrapper .footer ul li.winxin-desc p { font-size: 16px; line-height: 22px; color: #fff;}
+.wrapper .footer ul li.contatc { margin: 0 0 0 25px; width: 30%;}
+.wrapper .footer ul li.contatc .tltle { font-size: 20px; color: #fff; margin: 15px 0 15px 0;}
+.wrapper .footer ul li.contatc p { font-size: 14px; color: #fff; line-height: 22px; margin: 0 0 0 20px;}
+.wrapper .footer ul li.contatc p .icons { display: inline-block; width: 20px; height: 20px; margin: 0 3% 0 0;}
+.wrapper .footer ul li.contatc p .email { background: url(../images/icons.png) no-repeat 0 7px;}
+.wrapper .footer ul li.contatc p .tel { background: url(../images/icons.png) no-repeat 0 -27px;}
+.wrapper .copyright { margin: 0 auto; width: 100%; border-top:1px solid #fff; line-height: 50px; font-size: 16px; color: #fff; text-align: center;}
+.wrapper .copyright a { color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
